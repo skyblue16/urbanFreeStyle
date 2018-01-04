@@ -1,0 +1,40 @@
+/*titulos y subtitulos font-family: 'Roboto', sans-serif;*/
+/*párrafos y textos font-family: 'Alegreya Sans', sans-serif;*/
+
+body{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
+}
+
+.no-margin{
+	margin: 0;
+	padding: 0;
+}
+
+.mainMenu{
+	padding-top: 1.5em;
+	vertical-align: middle;
+}
+
+.fa-envelope-o, .fa-bell{
+	padding-top: 0.3em;
+}
+
+.fa-search{
+	padding: 0.1em 0.3em;
+}
+
+.perfilBox p{
+	text-align: center;
+	font-size: 1em;
+}
+
+.perfilBox h4{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+}
+
+.photoPerfil{
+	border-radius: 50%;
+}

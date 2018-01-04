@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Urban Free Style</title>
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500i,700|Roboto:700i,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/mainpage.css">
+</head>
+<body>
+	<!--Fixed menu-->
+	<section>
+		<div class="row mainMenu no-margin">
+			<div class="container ">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="row">
+						<!--Logo of Urban Free Style-->
+						<div class="col-lg-2 col-md-2 col-sm-5 col-xs-5">
+							<img class="img-responsive" src="assets/img/logo.png">
+						</div>
+						<!--Searcher-->
+						<div class="col-lg-6 col-md-6 col-lg-offset-2 col-md-offset-2 col-sm-7 col-xs-7">
+							<div class="input-group input-group-lg">
+								<div class="dropdown">
+  									<button class="btn btn-default dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  										<input type="text" class="form-control" placeholder="# busca por hashtag " aria-describedby="sizing-addon1">
+  									</button>
+  									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    									<li><a href="#">Artista/Colectivo</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Rutas</a></li>
+    									<li role="separator" class="divider"></li>
+    									<li><a href="#">Explora</a></li>
+  									</ul>
+								</div>  								
+							</div>
+						</div>
+						<!--Message icon-->
+						<div class="col-lg-1 col-md-1 hidden-sm hidden-xs">
+							<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+						</div>
+						<!--Notifications icon-->
+						<div class="col-lg-1 col-md-1 hidden-sm hidden-xs">
+							<i class="fa fa-bell fa-2x" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<hr>
+	</section>
+	<!--Main container-->
+	<section>
+		<div class="row no-margin">
+			<div class="container-fluid">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<!--LEFT COLUMN-->
+					<div class="col-lg-3 col-md-3">
+						<!--Perfil Box -->
+						<div class="jumbotron perfilBox">
+							<!--Perfil Photo-->
+  							<img class="photoPerfil img-responsive" src="assets/img/foto-perfil-perfil.jpg">
+  							<!--User Name-->
+  							<h4>Lala lita</h4>
+  							<!--Phrase-->
+  							<p>"Mi vida es un resort"</p>
+  							<!--followers and followed counter-->
+  							<div >
+  								<ul class="nav nav-pills" role="tablist">
+  									<li role="presentation"><a href="#">Seguidores<span class="badge">42</span></a></li>
+  									<li role="presentation"><a href="#">Seguidos<span class="badge">3</span></a></li>
+								</ul>
+  							</div>
+  							<p><a class="btn btn-default btn-lg" href="#" role="button">Editar Perfil</a></p>
+						</div>
+						<!--Gallery-->
+						<div class="jumbotron">
+  							<h3>Galería</h3>
+  							<div class="row">
+  								<div class="container">
+  									<div class="col-lg-12 col-md-12">
+  									<ul>
+  										<li><img class="img-responsive" src="assets/img/street.jpg"></li>
+  										<li><img class="img-responsive" src="assets/img/mucama.jpg"></li>
+  										<li><img class="img-responsive" src="assets/img/señora.jpg"></li>
+  										</ul>
+  									</div>
+  								</div>
+  							</div>
+						</div>						
+					</div>
+					<!--MIDDLE COLUMN-->
+					<div class="col-lg-6 col-md-6">
+						<!--Box to upload content-->
+						<div class="jumbotron">
+  							<div class="input-group input-group-lg">
+  								<input type="text" class="form-control" placeholder="Muestrame lo que ves" aria-describedby="sizing-addon1">
+							</div>
+							<!--Upload button-->
+  								<p><input id="fileupload" type="file" name="files[]" data-url="server/php/" multiple></p>
+						</div>
+						<div class="jumbotron">
+  							<h1>Hello, world!</h1>
+  							<p>...</p>
+  							<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+						</div>
+						<div class="jumbotron">
+  							<h1>Hello, world!</h1>
+  							<p>...</p>
+  							<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+						</div>
+					</div>
+					<!--Rigth column-->
+					<div class="col-lg-3 col-md-3">
+						<!--Trend box-->
+						<div class="jumbotron">
+  							<h1>Hello, world!</h1>
+  							<p>...</p>
+  							<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+
+
+	
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js" ></script>
+	<script src="https://use.fontawesome.com/f21ed4669e.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/mainpage.js" ></script>
+
+
+</body>
+</html>
