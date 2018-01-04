@@ -16,12 +16,9 @@ body{
 	vertical-align: middle;
 }
 
-.icons.fa-envelope-o, .icons.fa-bell{
+.fa-envelope-o,.fa-bell{
 	padding-top: 0.3em;
-}
-
-.smallMessage {
-	padding: 0, 0, 0.3em, 0;
+	padding-bottom: 0.4em;
 }
 
 .fa-search{
