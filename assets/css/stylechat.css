@@ -1,0 +1,159 @@
+body {
+    background-image: url(../img/fondo.jpg)
+}
+.col .row .clear-margin{
+  margin: 0;
+}
+
+.row{
+  margin: 0;
+  padding: 0;
+}
+.col{
+  margin: 0;
+  padding: 0;
+}
+.row .col #info-contacts{
+  padding: 0;
+}
+#info-contacts{
+  position: relative;
+}
+#my-information{
+  background-color: #EEEEEE;
+  padding: 5px 35px;
+  border-right: 1px solid #DBDBDB;
+}
+#talking-to-style{
+  background-color: #EEEEEE;
+  padding: 0.5em 1em;
+}
+#my-photo{
+  width: 2.8em;
+  height: 2.8em;
+  background-image: url(../img/grafitero1.jpg);
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.guyss-photos{
+  box-sizing: border-box;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+  clear: both;
+  letter-spacing: 0.5em;
+  line-height: 2em;
+  color: black;
+  font-size: 1.2em;
+}
+.personal-icons .fa{
+  cursor: pointer;
+}
+#input-search{
+  background-color: #FBFBFB;
+  padding: 0.7em;
+  border-bottom: 1px solid #EDE9E2;
+  border-right: 1px solid #E2DEDB;
+  font-weight: lighter;
+}
+#search-guys{
+  border: 1px solid #EDE9E2;
+  height: 2em;
+  margin: 0;
+  width: 92%;
+  padding: 0 0.5em;
+}
+#list-guyss{
+  background-color: #FFF;
+  height: 483px;
+  overflow: auto;
+  border-right: 1px solid #E2DEDB;
+}
+.guys-photo{
+  width: 3.3em;
+  height: 3.3em;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: 50%;
+}
+.guys-info{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5em; 
+  width: 17em;
+}
+.guys-name{
+  font-size: 15px;;
+  font-weight: bolder;
+  margin: 0;
+  
+}
+.guys-state{
+  font-size: 0.87em;
+  margin: 0;
+  font-weight: 500;
+  color: #7C7D7D;
+  
+}
+.guys{
+  border-bottom: 1px solid #EEEEEE;
+  padding: 15px;;
+  
+}
+.guys:hover{
+  background-color: #F4F5F5;
+}
+.chat{
+  background-color: #EDE9E2;
+  height: 489px;
+  word-break: break-all;
+  padding: 0 35px;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+.text{
+  padding: 0 0.5em;
+  margin: 1em 0;
+  display: inline-block;
+  background-color: white ;
+  border-radius: 20%;
+
+}
+.text p{
+  margin: 0;
+
+}
+.text p:last-child{
+  font-size: 0.8em;
+}
+.fa.fa-microphone{
+  color: #989B9D;
+  font-size: 1.6em;
+  line-height: 2em;
+  padding-right: 0.5em;
+}
+.chat-bottom{
+  background-color: #F5F1EE;
+  position: absolute;
+  top: 489px;
+  width: 100%;
+  right: 0;
+}
+input[type=text]:not(.browser-default){
+  margin-bottom: 0;
+  font-weight: bolder;
+  color: #515151;
+  background-color: #FFF;
+  height: 1.8em;
+  padding: 0.2em 1em;
+  margin-left: 30px;
+  margin-top: 0.5em;
+  border-radius: 3px;
+}
