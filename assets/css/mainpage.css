@@ -38,3 +38,41 @@ body{
 .photoPerfil{
 	border-radius: 50%;
 }
+
+/* Galleria */
+
+.gal {
+	
+	
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}
+/* Ventana de contenidos */
+
+.fa-heart-o, .fa-compass, .fa-bookmark-o{
+	margin-top: 0.5em;
+	padding-right: 0.5em;
+}
+
+/* imageCarousel*/
+
+.slideshow ul{
+	list-style: none;
+}
