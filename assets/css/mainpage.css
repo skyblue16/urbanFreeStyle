@@ -25,6 +25,13 @@ body{
 	padding: 0.1em 0.3em;
 }
 
+
+/* Perfil Box */
+.perfilBox{
+	background-color: #fff;
+	border:0.1em solid #A4A4A4;
+	text-align: center;
+}
 .perfilBox p{
 	text-align: center;
 	font-size: 1em;
@@ -39,6 +46,18 @@ body{
 .photoPerfil{
 	border-radius: 50%;
 }
+
+.editButton{
+	margin-top: 0.5em;
+}
+li a{
+	color: #FE2E2E;
+}
+
+.numeralCircle{
+	background-color: #FE2E2E; 
+}
+
 
 /* Galleria */
 
