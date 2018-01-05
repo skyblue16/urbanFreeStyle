@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Rutas</title>
+	<title>Explora</title>
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500i,700|Roboto:700i,900" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/route.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/artist.css">
 </head>
 <body>
 		<!--Fixed menu-->
@@ -27,11 +27,11 @@
   										<input type="text" class="form-control" placeholder="# busca por hashtag " aria-describedby="sizing-addon1">
   									</button>
   									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    									<li><a href="artist.html">Artista/Colectivo</a></li>
+    									<li><a href="#">Artista/Colectivo</a></li>
     									<li role="separator" class="divider"></li>
-    									<li><a href="ruta.html">Rutas</a></li>
+    									<li><a href="#">Rutas</a></li>
     									<li role="separator" class="divider"></li>
-    									<li><a href="explora.html">#Explora</a></li>
+    									<li><a href="#">Explora</a></li>
   									</ul>
 								</div>  								
 							</div>
@@ -82,22 +82,25 @@
 			<a href="html/chatsfriend.html"><i class="fa fa-envelope-o fa-2x smallMessage" aria-hidden="true"></i></a>
 		</div>
 	</section>
-	<!--Routes-->
+	<!--Artist Gallery-->
 	<div class="row">
 		<div class="container">
-			<div class="col-lg-11 col-md-11 col-sm-9 col-xs-9">
-				<!--Map-->
+			<div class="col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-1">
 				<div class="row">
-					<div class="container">
-						<div class="col-lg-9 col-md-9 hidden-sm hidden-xs col-lg-offset-3 col-md-offset-3">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13309.715563407757!2d-70.75847674999999!3d-33.490216849999996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1515146059800" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div>
-						<!--Map small device-->
-						<div class="hidden-lg hidden-md col-sm-7 col-xs-7">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13309.715563407757!2d-70.75847674999999!3d-33.490216849999996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1515146059800" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div>
+					<div class="col-lg-11 col-md-11 col-sm-12 col-xs-12 artistOne">
+						<h3>#Étnico</h3>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-lg-11 col-md-11 col-sm-12 col-xs-12 artistTwo">
+						<h3>#Mensaje Social</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-11 col-md-11 col-sm-12 col-xs-12 artistThree">
+						<h3>#Abstracto</h3>
+					</div>
+				</div>	
 			</div>
 		</div>
 	</div>
