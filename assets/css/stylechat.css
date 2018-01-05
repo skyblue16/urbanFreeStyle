@@ -164,3 +164,6 @@ input[type=text]:not(.browser-default)v{
   margin-top: 20px;
   margin-right: 50px;
 }
+.fa-smile {
+  color: #070707;
+}
