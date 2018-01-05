@@ -20,6 +20,19 @@ body{
 	padding-top: 0.3em;
 	padding-bottom: 0.4em;
 }
+.fa-bell{
+	color: #FE2E2E;
+}
+
+.bellButton{
+	background-color: transparent;
+	border:none;
+}
+
+.bellButton:hover{
+	background-color: transparent;
+	border-style: none;
+}
 
 .fa-search{
 	padding: 0.1em 0.3em;
@@ -130,7 +143,6 @@ li a{
 
 
 /* imageCarousel*/
-
 .imageCarousel{
 	background-color: #fff;
 	border:0.1em solid #A4A4A4;
