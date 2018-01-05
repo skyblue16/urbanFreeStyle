@@ -15,3 +15,10 @@ $("#botonSeguir").dblclick(function () {
     $("#botonSeguir").html("Seguir")
     $(".seguidos ").html("142")
 });
+$(".naturaleza").click(function () {
+    $(".colecciones").show()
+    
+});
+$(".naturaleza").dblclick(function () {
+    $(".colecciones").hide()
+});
