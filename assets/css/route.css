@@ -1,0 +1,43 @@
+body{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
+}
+
+.no-margin{
+	margin: 0;
+	padding: 0;
+}
+
+.mainMenu{
+	padding-top: 1.5em;
+	vertical-align: middle;
+}
+
+.fa-envelope-o,.fa-bell{
+	padding-top: 0.3em;
+	padding-bottom: 0.4em;
+}
+.fa-bell{
+	color: #FE2E2E;
+}
+
+.bellButton{
+	background-color: transparent;
+	border:none;
+}
+
+.bellButton:hover{
+	background-color: transparent;
+	border-style: none;
+}
+
+.fa-search{
+	padding: 0.1em 0.3em;
+}
+
+
+.return{
+	margin-top: 2em;
+	background-color: #FE2E2E;
+	color:#fff;
+}
