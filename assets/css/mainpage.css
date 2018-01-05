@@ -43,7 +43,7 @@ body{
 .perfilBox{
 	background-color: #fff;
 	border:0.1em solid #A4A4A4;
-	text-align: center;
+	text-align: center center;	
 }
 .perfilBox p{
 	text-align: center;
@@ -60,6 +60,8 @@ body{
 	border-radius: 70%;
 	width: 150px;
 	height: 150px;
+	text-align: center;
+	margin-left: 1em;
 }
 
 .editButton, .addDataButton, .imageUploadButton{
@@ -116,8 +118,11 @@ li a{
 .uploadContent h3{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
-
 }
+#fileupload{
+	font-size: 1em;
+}
+
 /* Ventana de contenidos */
 .contentContacts{
 	background-color: #fff;
