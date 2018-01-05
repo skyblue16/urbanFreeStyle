@@ -44,11 +44,15 @@ body{
 }
 
 .photoPerfil{
-	border-radius: 50%;
+	border-radius: 70%;
+	width: 150px;
+	height: 150px;
 }
 
-.editButton{
+.editButton, .addDataButton, .imageUploadButton{
 	margin-top: 0.5em;
+	background-color: #FE2E2E;
+	color:#fff;
 }
 li a{
 	color: #FE2E2E;
@@ -84,15 +88,50 @@ li a{
 	}
 		
 	}
-/* Ventana de contenidos */
+.galleryUser{
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	border:0.1em solid #A4A4A4;
+}
 
-.fa-heart-o, .fa-compass, .fa-bookmark-o{
+/* caja para subir contenido */
+.uploadContent{
+	background-color: #fff;
+	border:0.1em solid #A4A4A4;
+}
+.uploadContent h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+
+}
+/* Ventana de contenidos */
+.contentContacts{
+	background-color: #fff;
+	border:0.1em solid #A4A4A4;
+}
+.contentContacts h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	padding-bottom: 1em;
+}
+.contentContacts img{
+	padding-bottom: 1em;
+	width: 500px;
+}
+.contentContacts p{
+	font-size: 1.3em;
+}
+
+.fa-heart, .fa-compass, .fa-bookmark{
 	margin-top: 0.5em;
 	padding-right: 0.5em;
 }
 
+
 /* imageCarousel*/
 
-.slideshow ul{
-	list-style: none;
+.imageCarousel{
+	background-color: #fff;
+	border:0.1em solid #A4A4A4;
 }
