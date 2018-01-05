@@ -64,7 +64,7 @@ body{
 	margin-left: 1em;
 }
 
-.editButton, .addDataButton, .imageUploadButton{
+.editButton, .addDataButton, .imageUploadButton, .donate{
 	margin-top: 0.5em;
 	background-color: #FE2E2E;
 	color:#fff;
@@ -149,6 +149,11 @@ li a{
 
 /* imageCarousel*/
 .imageCarousel{
+	background-color: #fff;
+	border:0.1em solid #A4A4A4;
+}
+
+.wallDonate{
 	background-color: #fff;
 	border:0.1em solid #A4A4A4;
 }
