@@ -1,0 +1,79 @@
+/*titulos y subtitulos font-family: 'Roboto', sans-serif;*/
+/*párrafos y textos font-family: 'Alegreya Sans', sans-serif;*/
+
+body{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
+}
+
+.no-margin{
+	margin: 0;
+	padding: 0;
+}
+
+.mainMenu{
+	padding-top: 1.5em;
+	vertical-align: middle;
+}
+
+.fa-envelope-o,.fa-bell{
+	padding-top: 0.3em;
+	padding-bottom: 0.4em;
+}
+.fa-bell{
+	color: #FE2E2E;
+}
+
+.bellButton{
+	background-color: transparent;
+	border:none;
+}
+
+.bellButton:hover{
+	background-color: transparent;
+	border-style: none;
+}
+
+.fa-search{
+	padding: 0.1em 0.3em;
+}
+
+.artistOne{
+	background-image: url(../img/inti.jpg);
+	background-position: center center;
+	background-origin: cover;
+	text-align: center;
+}
+
+.artistOne h3, .artistTwo h3, .artistThree h3 {
+	padding-top: 1em;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+
+}
+.artistOne p, .artistTwo p, .artistThree p {
+	color: #fff;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 700;
+}
+
+.artistTwo {
+	background-image: url(../img/12-brillos.jpg);
+	background-position: center center;
+	background-origin: cover;
+	text-align: center;
+}
+
+.artistThree{
+	background-image: url(../img/fisek.jpg);
+	background-position: center center;
+	background-origin: cover;
+	text-align: center;
+}
+
+.return{
+	margin-top: 2em;
+	background-color: #FE2E2E;
+	color:#fff;
+}
