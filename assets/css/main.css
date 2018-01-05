@@ -72,7 +72,11 @@
 .espacio {
     margin-left: 20px;
     margin-right: 20px;
+    
 }
 .colecciones {
     display: none;
+}
+.img-margin {
+    margin-top: 20px;
 }
