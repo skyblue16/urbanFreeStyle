@@ -25,13 +25,14 @@
     padding-bottom: 17px !important;
     padding-right: 42px !important;
     margin-top: 30px;
+    background-color: #FE2E2E;
+    color: #fff;
 }
 .slogan {
     color: white;
     z-index: 4;
-    position: relative;
-    bottom: 25%;
-    
+    position:relative;
+    bottom: 20%;
     font-family: 'Indie Flower', cursive;
     
 }
@@ -51,6 +52,12 @@
 .numSeguidor {
         margin-top: 7%;
 }
+.siginButton,.loginButton{
+    background-color: #FE2E2E;
+    color: #fff;
+}
+
+
 /*section images*/
 .img {
     width: 300px;
